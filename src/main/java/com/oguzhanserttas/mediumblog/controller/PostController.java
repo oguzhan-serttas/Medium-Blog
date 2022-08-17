@@ -13,8 +13,8 @@ import java.util.List;
 @RequestMapping("/api/posts")
 public class PostController {
 
-    private PostService postService;
-    private PostIntegration postIntegration;
+    private final PostService postService;
+    private final PostIntegration postIntegration;
 
     public PostController(PostService postService, PostIntegration postIntegration) {
         this.postService = postService;

@@ -1,6 +1,5 @@
 package com.oguzhanserttas.mediumblog.controller;
 
-import com.oguzhanserttas.mediumblog.configuration.MediumProperties;
 import com.oguzhanserttas.mediumblog.model.User;
 import com.oguzhanserttas.mediumblog.service.UserService;
 import org.springframework.http.HttpStatus;
@@ -12,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
-    private UserService userService;
+    private final UserService userService;
 
     public UserController(UserService userService) {
         this.userService = userService;

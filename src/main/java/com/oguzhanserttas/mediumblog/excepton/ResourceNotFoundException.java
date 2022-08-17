@@ -4,6 +4,10 @@ import lombok.Getter;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
+
+// TODO exception class : code, message
+
+// TODO exception translate : tümünü yakalar dış dünyaya ortak anlamlı hata fırlatır.
 @Getter
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
 public class ResourceNotFoundException extends RuntimeException{

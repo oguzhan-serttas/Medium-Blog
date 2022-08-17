@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Getter
 @Setter
 @ToString
-public class MediumProperties {
+public class MediumAccountConfiguration {
     private String userId;
-    private String accesstoken;
+    private String accessToken;
 }

@@ -24,5 +24,6 @@ application:
     password: admin
 
 medium:
+  base-url: https://api.medium.com
   user-id: 12fa9a911444035fc371fa05127ef2e5ddc8ce700345d5c58a33727fcd68c1726
   access-token: 271b87d5bfc5e8aad4518284022108130880db68d900b0435227c81d3d098dccf
